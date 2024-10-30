@@ -10,7 +10,7 @@ The project explores using deep learning to parameterize geometries represented 
    - We use `h5py` to extract XYZ geometry data from CGNS files, providing the structured CFD simulation data necessary for SDF calculation.
 
 2. **Signed Distance Function Calculation**:
-   - After extracting the geometry, we compute the Signed Distance Function (SDF) for each point, creating a continuous representation of distances relative to the geometry surface, which serves as the basis for subsequent modeling.
+   - After extracting the geometry, we compute the Signed Distance Function (SDF) for each point, creating a continuous representation of distances .
 
 3. **Neural Network Architectures**:
    - Various architectures are tested to develop a parameterized representation of the geometry, including:
