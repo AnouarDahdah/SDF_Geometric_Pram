@@ -1,6 +1,6 @@
 
 
-Open In Colab
+
 
 # Check shapes of SDF values
 print("Original SDF shape:", sdf_values.shape)
